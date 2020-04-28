@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/bernardobrezende/teste-sonarcloud#readme",
   "devDependencies": {
-    "jest": "^25.4.0"
+    "jest": "^25.4.0",
+    "jest-sonar-reporter": "^2.0.0"
+  },
+  "jest": {
+    "testResultsProcessor": "jest-sonar-reporter"
   }
 }
